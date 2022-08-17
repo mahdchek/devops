@@ -22,6 +22,6 @@ services:
     image: jenkins/jenkins
     user: root
     ports:
-      - "9010:8080"
+      - "10000:8080"
     volumes:
       - jenkins_data/:/var/jenkins_home
